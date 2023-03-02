@@ -6,6 +6,7 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaLinkedin
 } from "react-icons/fa";
 import {SiJava,SiPython,SiCplusplus, SiJavascript} from "react-icons/si";
 
@@ -26,7 +27,12 @@ export { HeroDark as Dark };
 export const githubUsername = "Tianyue-Jin";
 
 // Blog link icon (imported above)
-export const Blog = <FaLink />;
+export const Blog = 
+  {
+    icon: <FaLinkedin className="display-4" />,
+    name: "HTTianML5",
+  };
+
 
 /* About Me
  **************************************************************
